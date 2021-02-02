@@ -46,7 +46,7 @@ def cluster(reads):
 def printQubitGraph(): #Maybe make the name of the file saved an input?
     plt.figure(figsize=(40,40))
     dnx.draw_pegasus_embedding(hardware_graph, emb=embedding, node_size=100, width=2, unused_color=(0,0,0,.3))
-    plt.savefig('2V2T_Advantage.png')
+    plt.savefig('2V2T_Advantage.png') #That input would go here
     plt.close()
 
 #printQubitGraph() #Uncomment this if you want the code to save the image.
