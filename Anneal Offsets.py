@@ -18,6 +18,7 @@ computer = "Advantage_system1.1"
 sampler = DWaveSampler(token=token, solver=computer)
 hardware_graph = dnx.pegasus_graph(16, node_list=sampler.properties['qubits'], edge_list=sampler.edgelist)
 embedding = dwave.embedding.pegasus.find_clique_embedding(4, target_graph=hardware_graph) #Creates a dictionary with the key as the logical Qubit ID and a list of the physical qubit IDs that belong to the logical qubit
+print("finished embedding")
 #print(embedding)
 
 A_matrix = sampler.adjacency #This is the adjacency matrix
@@ -132,10 +133,17 @@ def tabulate(data, printBool):
     if printBool:
         print(str(data))
 
+def createOffsets():
+    offsets = [] #Declaration for now. Edit stuff below this point
+    offsets = [0] * len(sampler.properties['anneal_offset_ranges'])
+    return offsets
+
 def printQubitGraph(): #Maybe make the name of the file saved an input?
     plt.figure(figsize=(40,40))
     dnx.draw_pegasus_embedding(hardware_graph, emb=embedding, node_size=100, width=2, unused_color=(0,0,0,.3))
     plt.savefig('2V2T_Advantage.png') #That input would go here
     plt.close()
 
+makeQUBO(trackList, numOfClusters, 1) #This generates a Hamiltonian with the error adjusted points, the amount of cluster specified at the beginning, and with a stregth of constraint of 1
+tabulate(cluster(10, createOffsets()), False) #This tabulates the results from the QPU with 10 reads. It does not print the raw output from the QPU. It also takes the offsets that were created by the createOffsets function
 #printQubitGraph() #Uncomment this if you want the code to save the image.
