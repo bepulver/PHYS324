@@ -33,15 +33,15 @@ A_matrix = sampler.adjacency #This is the adjacency matrix
 #3V6T
 #inputFile = [[0.5230456769168634, [[0.5240341355642414, 0.0009166666666666668], [0.5235322589723301, 0.0004166666666666667]]], [0.4017284489848494, [[0.4023188409447569, 0.0004166666666666667], [0.4015596160807172, 0.0009166666666666668]]], [0.46472244197733575, [[0.4650397642828156, 0.0004166666666666667], [0.46458608339970275, 0.0013833333333333334]]]]
 #2V4T
-#inputFile = [[0.3576734259547776, [[0.3578421714920063, 0.0003333333333333334], [0.35763199025343234, 0.0003333333333333334]]], [0.43751589332926805, [[0.4378207965666029, 0.0005833333333333333], [0.4375708301205863, 0.0004166666666666667]]]]
+inputFile = [[0.3576734259547776, [[0.3578421714920063, 0.0003333333333333334], [0.35763199025343234, 0.0003333333333333334]]], [0.43751589332926805, [[0.4378207965666029, 0.0005833333333333333], [0.4375708301205863, 0.0004166666666666667]]]]
 #2V50T
 #inputFile = [[0.40372712245907655, [[0.40313230894383995, 0.0005833333333333333], [0.40128689560282804, 0.0013833333333333334], [0.40411536912117757, 0.0003333333333333334], [0.40229746198479316, 0.0013833333333333334], [0.4026530582972256, 0.0005833333333333333], [0.40496019263698085, 0.00205], [0.4035448749007843, 0.0005833333333333333], [0.40330605065684577, 0.0009166666666666668], [0.40395058872927236, 0.0009166666666666668], [0.4046022135805178, 0.0005833333333333333], [0.40292238395410696, 0.0009166666666666668], [0.4023013958592916, 0.0009166666666666668], [0.40286435832905343, 0.00205], [0.4046331997053262, 0.0004166666666666667], [0.4037195224233967, 0.0005833333333333333], [0.40289850548321177, 0.0003333333333333334], [0.40256632631597933, 0.00205], [0.40284779126459225, 0.0009166666666666668], [0.4030053912344479, 0.0005833333333333333], [0.4073209909011575, 0.00205], [0.4047261154188145, 0.00205], [0.4039366745709197, 0.0004166666666666667], [0.40355421844393713, 0.0003333333333333334], [0.4041819489326438, 0.0005833333333333333], [0.40248173744565413, 0.0013833333333333334]]], [0.46567486036165345, [[0.4641909456987078, 0.00205], [0.4656847208660851, 0.0004166666666666667], [0.4651644822671265, 0.0005833333333333333], [0.46520789913516536, 0.0003333333333333334], [0.4654909585992463, 0.0004166666666666667], [0.46478660256079696, 0.0009166666666666668], [0.46403649879472936, 0.0013833333333333334], [0.46554608568856276, 0.0003333333333333334], [0.4646012247510719, 0.0004166666666666667], [0.4658324856307101, 0.0003333333333333334], [0.4667948738926254, 0.00205], [0.46429959512639873, 0.00205], [0.465264575691102, 0.0004166666666666667], [0.46611862512493846, 0.0003333333333333334], [0.4653225360875454, 0.0013833333333333334], [0.4661083934494567, 0.0003333333333333334], [0.46444244799491674, 0.0005833333333333333], [0.46617339671279684, 0.0003333333333333334], [0.46583324598545045, 0.0005833333333333333], [0.4653467112466013, 0.0009166666666666668], [0.46659589148806285, 0.00205], [0.4657853869436152, 0.0003333333333333334], [0.4654675477451264, 0.0005833333333333333], [0.46531140580563884, 0.0003333333333333334], [0.46541815969045824, 0.0004166666666666667]]]]
 #2V10T
 #inputFile = [[0.26459440140957663, [[0.2647385486134077, 0.0003333333333333334], [0.2654162874927705, 0.0005833333333333333], [0.2644212460179555, 0.0004166666666666667], [0.26479940986166234, 0.0005833333333333333], [0.26483538260019035, 0.0003333333333333334]]], [0.6371146815924992, [[0.6370521845916481, 0.0005833333333333333], [0.6371294827443515, 0.0005833333333333333], [0.639912825546594, 0.00205], [0.6365240549681587, 0.0005833333333333333], [0.6375382756189499, 0.0005833333333333333]]]]
 #2V16T
-inputFile = [[0.3477026272590622, [[0.34670542276621336, 0.0013833333333333334], [0.3479626564874828, 0.0005833333333333333], [0.34719922931666236, 0.0013833333333333334], [0.34582910050787274, 0.0013833333333333334], [0.3484048734552079, 0.0005833333333333333], [0.347763739911817, 0.0005833333333333333], [0.3465146075655664, 0.0009166666666666668], [0.3478775642040726, 0.0013833333333333334]]], [0.5096619032548017, [[0.5093428196876093, 0.0005833333333333333], [0.5095549411829058, 0.0009166666666666668], [0.5102061296299512, 0.0005833333333333333], [0.5087631763603003, 0.0003333333333333334], [0.5086694400220225, 0.0005833333333333333], [0.5098174300893572, 0.0004166666666666667], [0.5094418005132764, 0.0009166666666666668], [0.5093916323048657, 0.0004166666666666667]]]]
+#inputFile = [[0.3477026272590622, [[0.34670542276621336, 0.0013833333333333334], [0.3479626564874828, 0.0005833333333333333], [0.34719922931666236, 0.0013833333333333334], [0.34582910050787274, 0.0013833333333333334], [0.3484048734552079, 0.0005833333333333333], [0.347763739911817, 0.0005833333333333333], [0.3465146075655664, 0.0009166666666666668], [0.3478775642040726, 0.0013833333333333334]]], [0.5096619032548017, [[0.5093428196876093, 0.0005833333333333333], [0.5095549411829058, 0.0009166666666666668], [0.5102061296299512, 0.0005833333333333333], [0.5087631763603003, 0.0003333333333333334], [0.5086694400220225, 0.0005833333333333333], [0.5098174300893572, 0.0004166666666666667], [0.5094418005132764, 0.0009166666666666668], [0.5093916323048657, 0.0004166666666666667]]]]
 #2V20T
-#inputFile = [[0.4298720738744714, [[0.42956858524444586, 0.00205], [0.43055210280748696, 0.0005833333333333333], [0.4281751472645296, 0.0013833333333333334], [0.4295458477522827, 0.0004166666666666667], [0.4301522468613366, 0.0009166666666666668], [0.42922161096355904, 0.0005833333333333333], [0.4297410489392506, 0.0004166666666666667], [0.4299412304163768, 0.0004166666666666667], [0.4287570336655881, 0.0013833333333333334], [0.43072908258370507, 0.0009166666666666668]]], [0.5532946625199134, [[0.5536168324913402, 0.0005833333333333333], [0.5533625539869165, 0.0003333333333333334], [0.5528725749640683, 0.0005833333333333333], [0.5535465063402216, 0.0003333333333333334], [0.5535674819591111, 0.0004166666666666667], [0.5535906431076907, 0.0003333333333333334], [0.552889680962357, 0.0004166666666666667], [0.5534116462767563, 0.0013833333333333334], [0.5536775947471168, 0.0003333333333333334], [0.5539587696221367, 0.0004166666666666667]]]]
+#inputFile = [[0.4078385649403785, [[0.4081188272891417, 0.0004166666666666667], [0.4071640022677991, 0.00205], [0.40937063788351874, 0.00205], [0.4055156250132842, 0.0013833333333333334], [0.4081755378876359, 0.0003333333333333334], [0.40748571089521457, 0.0005833333333333333], [0.4076608982535621, 0.0003333333333333334], [0.4076349964133994, 0.0009166666666666668], [0.4082076368274103, 0.0009166666666666668], [0.40782454841127336, 0.0003333333333333334]]], [0.7471953935509581, [[0.748029799603348, 0.0004166666666666667], [0.7464826797517217, 0.0009166666666666668], [0.7473419823192881, 0.0005833333333333333], [0.749613130971712, 0.0013833333333333334], [0.7463983724219616, 0.0009166666666666668], [0.7455691011411218, 0.0013833333333333334], [0.7473114640837099, 0.0005833333333333333], [0.7476735588979205, 0.0013833333333333334], [0.74694666403117, 0.0005833333333333333], [0.7481973954632878, 0.0009166666666666668]]]]
 #2V28T
 #inputFile = [[0.31571817267074337, [[0.3156134039706826, 0.0003333333333333334], [0.31455038984443007, 0.00205], [0.3157642770348872, 0.00205], [0.31612599297646893, 0.0003333333333333334], [0.3151971311639035, 0.0004166666666666667], [0.3157155546348742, 0.0004166666666666667], [0.3140892584306134, 0.0013833333333333334], [0.3174205985673443, 0.00205], [0.3161015887926657, 0.0009166666666666668], [0.31716675070661854, 0.0009166666666666668], [0.3155865349881447, 0.0009166666666666668], [0.31493158820318123, 0.0005833333333333333], [0.31719940317050427, 0.0009166666666666668], [0.3170537738756036, 0.0013833333333333334]]], [0.661181258203091, [[0.6596810060112318, 0.0013833333333333334], [0.6614027663673783, 0.0004166666666666667], [0.6612599285720642, 0.0003333333333333334], [0.6616816681316353, 0.0005833333333333333], [0.6614533910848687, 0.0003333333333333334], [0.6613573805812722, 0.0013833333333333334], [0.6616798816899587, 0.0013833333333333334], [0.6594706304599387, 0.00205], [0.6609596580784179, 0.0005833333333333333], [0.661268871267803, 0.0005833333333333333], [0.6611259731926012, 0.0013833333333333334], [0.661821177686621, 0.0003333333333333334], [0.6612670836834323, 0.0003333333333333334], [0.6612472160140108, 0.0004166666666666667]]]]
 
@@ -175,6 +175,7 @@ def tabulate(data, printBool): #Essentially counts the amount of time that a spe
 def createOffsets(solutionArray):
     logical_j = [0] * (numOfClusters * len(trackList))
     logical_h = [0] * (numOfClusters * len(trackList))
+    mef = []
     offsets = [] 
     #offsets = [0] * len(sampler.properties['anneal_offset_ranges'])
     
@@ -188,33 +189,67 @@ def createOffsets(solutionArray):
             while (max(i)+1) > len(logical_j[min(i)]):
                 logical_j[min(i)].append(0)
             logical_j[min(i)][max(i)] = Q[i]
-
+    for i in logical_j[0]:
+        logical_j[len(logical_j) - 1].append(0)
+    
+    logical_j = np.matrix(logical_j)
+    logical_j = logical_j.T + logical_j
+    
+    """
     avgSpin = [] #This should end up being a list that looks like the solutions but will have fractional pieces of spin corresponding to the average
-    for i in range(len(solutionArray[1])):
+    for i in range(len(solutionArray[1])): 
         numer = 0
         denom = 0
         for j in range(len(solutionArray)):
             numer += solutionArray[j][i]
             denom += 1
         avgSpin.append(numer / denom)
-    #finding the "force" on the qubits
-    for i in range(len(logical_j)): #iterating through the rows
-        for j in range(len(logical_j[i])): #iterating through the columns
-            logical_j[i][j] *= avgSpin[j] #Now this is a field (After it's summed)
-    for i in range(len(logical_j)):
-        logical_j[i] = sum(logical_j[i]) * avgSpin[i] #Now this is a force
-    for i in range(len(logical_h)):
-        logical_h[i] *= avgSpin[i] #Going from field to force
-    
-     #Combine the 2 and normalize
-    for i in range(len(logical_j)):
-        offsets.append(logical_j[i] + logical_h[i])
-    maxoffset = max(offsets)
-    for i in range(len(offsets)):
-        offsets[i] /= maxoffset
+    """
+    for i in range(len(sols)): #Iterating through all the solutions
 
-    pd.DataFrame(logical_j).to_csv("/workspace/PHYS324/j.csv")
-    #print(f"Logical J: {logical_j}\nLogical H: {logical_h}")
+        mef.append(logical_j.tolist()) #makes mef into a 3D matrix by appending a list of lists to a list
+
+        #finding the "force" on the qubits with just logical j
+        for j in range(len(mef[i])): #iterating through the rows of logical j mef[i] is a 2D matrix
+            for k in range(len(mef[i][j])): #iterating through the columns logical j mef[i][j] is a 1D list
+                mef[i][j][k] *= sols[i][k] #Now this is a field (After it's summed) mef[i][j][k] is a single value 
+        for j in range(len(mef[i])): #iterating through the rows of logical j mef[i] is a 2D matrix
+            mef[i][j] = sum(mef[i][j]) * int(sols[i][j]) #Now this is a force
+            #this turns mef into a 2D matrix
+        #Finding the force on the qubits from logical h. We add this to the existing mef
+        for j in range(len(logical_h)):
+            mef[i][j] = mef[i][j] + (logical_h[j] * -sols[i][j]) #Combining logical j and h
+    
+    #finding the mean effective force
+    mef = np.matrix(mef)
+    mef = mef.mean(0)
+    
+    #Basically parsing this giant dictionary into just lists
+    offset_table = sampler.properties['anneal_offset_ranges'] #I think this should return a dictionary with 2 keys and 2 lists
+    #pd.DataFrame(offset_table).to_csv("/workspace/PHYS324/AnnealOffsetRanges.csv")
+    offset_max = offset_table[1] #anneal_offset_ranges is the key in the dict. The values is a list of lists
+    offset_min = offset_table[0]
+    for i in range(len(offset_max)):
+        if offset_max[i] == 0:
+            offset_max[i] = 999
+    for i in range(len(offset_min)):
+        if offset_min[i] == 0:
+            offset_min[i] = -999
+    max_offsets = min(offset_max) #This is the minimum of the maximum offsets. this is possibly a good starting point for what to offset something by. We may need to truncate this later
+    min_offsets = max(offset_min)
+    
+    #normalize
+    maxmef = max(mef)
+    norm_mef = mef / maxmef
+
+    #Map mef values to valid offset for the qubits
+    logicalOffsets = (norm_mef * (max_offsets - min_offsets) - min_offsets).tolist()
+    
+    #Applying that to the physical qubit
+    offsets = [0.0] * 5760
+    for i in range(len(logicalOffsets)): #iterating through logical qubits
+        for j in embedding[i]: #Finding all the physical qubits that make up each logical qubit
+            offsets[j] = logicalOffsets[i] #applying the offset for a logical qubit to each physical qubit that make up the logical one
     
     """
     logical_J = coo_matrix(
@@ -299,33 +334,22 @@ def accuracy(sols, reads): #HARDCODED FOR 2 CLUSTERS AS OF NOW
     delta = 100 * math.sqrt(e * (1 - e) * reads) / reads
     print(f"{e * 100}% were correct with an uncertanty of {delta}")
 
-
-#===============================================EMBEDDING========================================================#
-
-#offset_table = DataFrame(sampler.properties['anneal_offset_ranges'], columns=['Min Ofset', 'Max Offset'])
-#offset_table.head()
-#offset_min = offset_table['Min Offset']
-#offset_max = offset_table['Max Offset']
-
-#Basically parsing this giant dictionary into just lists
-offset_table = sampler.properties['anneal_offset_ranges'] #I think this should return a dictionary with 2 keys and 2 lists
-offset_max = offset_table[1] #anneal_offset_ranges is the key in the dict. The values is a list of lists
-offset_min = offset_table[0]
-v = min(offset_max) #This is the minimum of the maximum offsets. this is possibly a good starting point for what to offset something by. We may need to truncate this later
-
 #===============================================FINAL FUNCTION CALLS==========================================#
 
 embedding = checkembedding() #either grabs embedding from a json, or calculates it using pegasus
 makeQUBO(trackList, numOfClusters) #This generates a Hamiltonian with the error adjusted points, the amount of cluster specified at the beginning, and with a stregth of constraint of 1
 print("Started final solve...")
 
-reads = 1000
+reads = 10
 sols = cluster(reads, [0], False) #This clusters and stores the answers. Uses a placeholder list, but we are using the offsets anyway
-#offsets = createOffsets(sols)
-#sols = cluster(100, offsets, True)
+print("Accuracy without offsets")
+accuracy(sols, reads)
+offsets = createOffsets(sols)
+sols = cluster(reads, offsets, True)
 tabsols = tabulate(sols, False) #Tabulated solutions
+print("Accuracy after applying offsets")
 accuracy(sols, reads)
 #This tabulates the results from the QPU with a specified number of reads. It also takes the offsets that were created by the createOffsets function. 
 #The first bool is for if the offsets should be used or not. The second is for if it should print the raw output from the QPU (untabulated)
 #tabulate(cluster(1000, createOffsets(), False), False)
-printQubitGraph() #Uncomment this if you want the code to save the image.
+#printQubitGraph() #Uncomment this if you want the code to save the image.
