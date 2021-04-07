@@ -222,29 +222,32 @@ def createOffsets(solutionArray):
     
     #finding the mean effective force
     mef = np.matrix(mef)
-    mef = mef.mean(0)
+    mef = (mef.mean(0)).tolist()[0]
     
     #Basically parsing this giant dictionary into just lists
     offset_table = sampler.properties['anneal_offset_ranges'] #I think this should return a dictionary with 2 keys and 2 lists
-    #pd.DataFrame(offset_table).to_csv("/workspace/PHYS324/AnnealOffsetRanges.csv")
-    offset_max = offset_table[1] #anneal_offset_ranges is the key in the dict. The values is a list of lists
-    offset_min = offset_table[0]
+    offset_max = [] #anneal_offset_ranges is the key in the dict. The values is a list of lists
+    offset_min = []
+    for i in range(len(offset_table)): #Making 2 lists of length 5760 
+        offset_min.append(offset_table[i][0])
+        offset_max.append(offset_table[i][1])
     for i in range(len(offset_max)):
         if offset_max[i] == 0:
             offset_max[i] = 999
     for i in range(len(offset_min)):
         if offset_min[i] == 0:
             offset_min[i] = -999
+
     max_offsets = min(offset_max) #This is the minimum of the maximum offsets. this is possibly a good starting point for what to offset something by. We may need to truncate this later
     min_offsets = max(offset_min)
-    
+
     #normalize
     maxmef = max(mef)
-    norm_mef = mef / maxmef
+    norm_mef = np.array(mef) / maxmef
 
     #Map mef values to valid offset for the qubits
-    logicalOffsets = (norm_mef * (max_offsets - min_offsets) - min_offsets).tolist()
-    
+    logicalOffsets = (-norm_mef * (max_offsets - min_offsets) + max_offsets).tolist()
+    print(logicalOffsets)
     #Applying that to the physical qubit
     offsets = [0.0] * 5760
     for i in range(len(logicalOffsets)): #iterating through logical qubits
